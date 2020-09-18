@@ -1,6 +1,6 @@
 CXX:=g++
 
-LIBS:=-lSDL2
+LIBS:=-lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 OBJECTS:=main.o sdl_handler.o
 
 main: $(OBJECTS)
